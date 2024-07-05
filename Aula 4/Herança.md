@@ -62,6 +62,6 @@ meuCachorro.latir(); // Output: Rex está latindo: Au au!
 
 1. Crie uma classe `Humano` com as propriedades `nome` e `idade`, e um método apresentar que imprime uma mensagem com o nome e a idade da pessoa. Em seguida, crie uma classe `Aluno` que herda de `Humano` e adiciona a propriedade `curso`. Adicione também um método `estudar` que imprime uma mensagem dizendo que o aluno está estudando o curso especificado.
 
-2. Crie uma classe `Veiculo` com as propriedades `marca` e `ano`, e um método `info` que imprime a marca e o ano do veículo. Em seguida, crie uma classe `Carro` que herda de `Veiculo` e adiciona a propriedade `modelo`. Adicione um método `detalhes` que imprime todas as informações do carro (marca, ano e modelo).
+2. Crie uma classe `Veiculo` com as propriedades `marca` e `ano`, e um método `info` que imprime a marca e o ano do veículo. Em seguida, crie uma classe `Moto` que herda de `Veiculo` e adiciona a propriedade `modelo`. Adicione um método `detalhes` que imprime todas as informações do carro (marca, ano e modelo).
 
 3. Crie uma classe `Empregado` com as propriedades `nome` e `salario`, e um método `trabalhar` que imprime uma mensagem dizendo que o empregado está trabalhando. Crie uma subclasse `Gerente` que herda de `Empregado` e adiciona a propriedade `departamento`. Adicione um método `supervisionar` que imprime uma mensagem dizendo que o gerente está supervisionando o departamento especificado. Além disso, modifique o método `trabalhar` na classe `Gerente` para incluir a informação do departamento.
