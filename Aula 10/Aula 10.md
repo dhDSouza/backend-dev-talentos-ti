@@ -2,28 +2,27 @@
 
 ## Introdução ao MySQL
 
-MySQL é um sistema de gerenciamento de banco de dados relacional (RDBMS) baseado em SQL (Structured Query Language). É uma escolha popular para aplicativos da web devido à sua performance, confiabilidade e facilidade de uso.
+`MySQL` é um sistema de gerenciamento de banco de dados relacional `(SGBD)` baseado em `SQL` *`(Structured Query Language)`*. É uma escolha popular para aplicativos web devido à sua performance, confiabilidade e facilidade de uso.
 
 ### Objetivos da Aula
 
 1. Compreender os conceitos básicos de bancos de dados relacionais.
-2. Aprender a instalar e configurar o MySQL.
-3. Conhecer os comandos básicos do MySQL.
+2. Conhecer os comandos básicos do `MySQL`.
 4. Praticar a criação e manipulação de tabelas e dados.
 
 ## Conceitos Básicos
 
 ### Banco de Dados Relacional
 
-Um banco de dados relacional armazena dados em tabelas, que são compostas por linhas e colunas. Cada tabela representa uma entidade diferente, e as relações entre as tabelas são definidas através de chaves estrangeiras.
+Um banco de dados relacional armazena dados em tabelas, que são compostas por **linhas** e **colunas**. Cada tabela representa uma **entidade** diferente, e as relações entre as tabelas são definidas através de **`chaves estrangeiras`**.
 
 ### Tabelas
 
-Uma tabela é uma coleção de dados organizados em linhas e colunas. Cada coluna tem um tipo de dado específico, como INT, VARCHAR, DATE, etc.
+Uma tabela é uma coleção de dados organizados em **linhas** e **colunas**. Cada coluna tem um tipo de dado específico, como `INT`, `VARCHAR`, `DATE`, etc.
 
 ### SQL
 
-SQL (Structured Query Language) é a linguagem padrão para gerenciar e manipular bancos de dados relacionais.
+`SQL` *`(Structured Query Language)`* é a linguagem padrão para gerenciar e manipular bancos de dados relacionais.
 
 ### Criando um banco de dados
 
@@ -92,3 +91,15 @@ DELETE FROM alunos WHERE nome = 'João Silva';
 - Atualize a descrição de um dos cursos.
 
 - Delete um dos cursos.
+
+---
+
+- Crie uma tabela chamada alunos com os campos id, nome, idade.
+
+- Insira pelo menos cinco alunos da tabela alunos.
+
+- Selecione todos os nomes de alunos, cujo a idade seja mais de 18 anos.
+
+- Atulalize a idade de alguns alunos.
+
+- Delete um aluno.
