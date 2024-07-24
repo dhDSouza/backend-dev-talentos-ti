@@ -16,6 +16,7 @@ USE loja;
 ### 1.2 Criar as Tabelas:
 
 **Tabela `clientes`:**
+
 ```sql
 CREATE TABLE clientes (
     id_cliente INT PRIMARY KEY,
@@ -24,6 +25,7 @@ CREATE TABLE clientes (
 ```
 
 **Tabela `pedidos`:**
+
 ```sql
 CREATE TABLE pedidos (
     id_pedido INT PRIMARY KEY,
@@ -34,6 +36,7 @@ CREATE TABLE pedidos (
 ```
 
 **Tabela `fornecedores`:**
+
 ```sql
 CREATE TABLE fornecedores (
     id_fornecedor INT PRIMARY KEY,
@@ -42,6 +45,7 @@ CREATE TABLE fornecedores (
 ```
 
 **Tabela `estoque`:**
+
 ```sql
 CREATE TABLE estoque (
     id_produto INT PRIMARY KEY,
@@ -69,7 +73,7 @@ INSERT INTO clientes (id_cliente, nome) VALUES
 INSERT INTO pedidos (id_pedido, id_cliente, produto) VALUES
 (101, 1, 'Livro'),
 (102, 2, 'Caneta'),
-(103, 4, 'Caderno');
+(103, 2, 'Caderno');
 ```
 
 ### 2.3 Inserir Dados na Tabela `fornecedores`:
