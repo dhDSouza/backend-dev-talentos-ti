@@ -80,26 +80,26 @@ DELETE FROM alunos WHERE nome = 'João Silva';
 ### Exercícios
 
 
-- Crie um banco de dados chamado escola.
+1. Crie um banco de dados chamado escola.
 
-- Crie uma tabela chamada cursos com os campos id, nome, descricao, duracao.
+2. Crie uma tabela chamada cursos com os campos id, nome, descricao, duracao.
 
-- Insira pelo menos cinco cursos na tabela cursos.
+3. Insira pelo menos cinco cursos na tabela cursos.
 
-- Selecione todos os cursos e exiba apenas os nomes e as durações.
+4. Selecione todos os cursos e exiba apenas os nomes e as durações.
 
-- Atualize a descrição de um dos cursos.
+5. Atualize a descrição de um dos cursos.
 
-- Delete um dos cursos.
+6. Delete um dos cursos.
 
 ---
 
-- Crie uma tabela chamada alunos com os campos id, nome, idade.
+7. Crie uma tabela chamada alunos com os campos id, nome, idade.
 
-- Insira pelo menos cinco alunos da tabela alunos.
+8. Insira pelo menos cinco alunos da tabela alunos.
 
-- Selecione todos os nomes de alunos, cujo a idade seja mais de 18 anos.
+9. Selecione todos os nomes de alunos, cujo a idade seja mais de 18 anos.
 
-- Atulalize a idade de alguns alunos.
+10. Atulalize a idade de alguns alunos.
 
-- Delete um aluno.
+11. Delete um aluno.
