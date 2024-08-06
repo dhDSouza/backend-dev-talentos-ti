@@ -22,7 +22,7 @@ Este exemplo está dentro do repositório das aulas, dentro de um diretório de 
     - Crie seu repositório
 
     <details>
-        ![Criação de Repositório GitHub](../imagens/NewRepository.png)
+        <img src="../imagens/NewRepository.png" alt="Criação de um repositório no GitHub" >
     </details>
 
 - Após a criação do repositório clone ele para o seu computador.
@@ -31,7 +31,7 @@ Este exemplo está dentro do repositório das aulas, dentro de um diretório de 
     - Selecione o link que irá aparecer em **HTTPS**
 
     <details>
-        ![Clonando o Repositório do GitHub](../imagens/CloneRepository.png)
+        <img src="../imagens/CloneRepository.png" alt="Cloando um repositório no GitHub">
     </details>
 
     - Abra o terminal no seu computador navegue até a pasta onde deseja que seu repositório seja clonado.
