@@ -305,9 +305,7 @@ app.listen(port, () => {
 
 ### Passo 10: Scripts do NPM
 
-Adicione os scripts de execução no `package.json
-
-`:
+Adicione os scripts de execução no `package.json`:
 
 ```json
 "scripts": {
